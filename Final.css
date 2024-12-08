@@ -1,0 +1,132 @@
+header {
+    background-image: linear-gradient(to bottom, rgb(42, 114, 209), rgba(0, 0, 255, 0.692), rgba(0, 255, 255, 0.685));
+    padding: 5px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: white;
+    font-weight: 100%;
+    width: 100%;    
+    font-style: italic;
+    justify-content: space-between;
+}
+body {
+    padding: 0;
+    background-image: url('mixblue.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
+    padding: 5px;
+    text-align: center;
+    word-spacing: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    margin-top: 1%;
+    font-size: medium;
+}
+
+#NAVA {
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+    padding: 11px;
+    font-style: bolder;
+}
+
+#NAVA:hover {
+    background-image: linear-gradient(to top, rgb(42, 114, 209), rgba(0, 0, 255, 0.692), rgba(0, 255, 255, 0.685));
+    padding: 11.3px;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    min-width: 250px;
+    flex-basis: 40%;
+    flex: 1 5 40%;
+    font-weight: bolder;
+    display: block; 
+    margin: 0 auto; 
+    margin-top: 5%;
+    background-color: transparent;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+footer {
+    background-image: linear-gradient(to top, rgb(42, 114, 209), rgba(0, 0, 255, 0.692), rgba(0, 255, 255, 0.685));
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    clear: both;
+    margin-top: 12.5%;
+    font-size: large;
+    margin-bottom: 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    margin: 0;
+}
+
+form {
+    margin-bottom: 20px;
+    background-color: transparent;
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin: 0;
+    margin-left: 25%;
+}
+
+input, select {
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+#result {
+    padding: 10px;      
+    margin-top: 10px;      
+    font-size: 200%;             
+    background-color: transparent;
+    width: fit-content;                   
+    color: red;
+    display: block; 
+    margin: 0 auto;    
+}
+
+label {
+    color: aquamarine;
+    padding: 2px;
+    font-size: 150%;
+    display: block; 
+    margin: 0 auto;
+}
+
+option {
+    color: blue;
+}

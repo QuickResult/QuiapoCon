@@ -1,0 +1,147 @@
+header {
+    background-image: linear-gradient(to bottom, hsl(212, 95%, 31%), rgb(9, 82, 116), transparent);
+    padding: 5px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: white;
+    font-weight: 100%;
+    width: 100%;    
+    font-style: italic;
+    justify-content: space-between;
+}
+
+body {
+    background-image: url('backabout.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav {
+    padding: 5px;
+    text-align: center;
+    word-spacing: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    margin-top: 1%;
+    font-size: medium;
+}
+
+#NAVA {
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+    padding: 11px;
+    font-style: bolder;
+}
+
+#NAVA:hover {
+    background-image: linear-gradient(to right, darkblue, rgb(9, 82, 116), hsl(212, 95%, 31%));
+    padding: 11.3px;
+}
+
+.about-web {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    font-size: 50px;
+    color: aqua;
+}
+
+.main {
+    background-image: url('back2.jpg');
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 40px;
+    padding-bottom: 120px;
+    min-height: auto;
+    font-family: 'SoDoSans';
+    letter-spacing: 2px;
+    flex-grow: 1;
+}
+
+.left, .right {
+    background-color: transparent;
+    margin: 0;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: justify;
+    border: solid blue 1px;
+    font-size: 20px;
+    color: white;
+}
+
+.footlink {
+    background-image: linear-gradient(to bottom, transparent, rgb(9, 82, 116), hsl(212, 95%, 31%));
+    padding: 50px 0;
+    font-family: 'SoDoSans';
+    letter-spacing: 2px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.foot-contains {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 50px;
+    width: 100%;
+}
+
+.foot-nav {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.foot-nav h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.foot-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.foot-nav ul li {
+    margin-bottom: 8px;
+}
+
+.nav-link {
+    display: flex;
+    gap: 70px;
+    padding-top: 20px;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-link a:hover {
+    color: aquamarine;
+}

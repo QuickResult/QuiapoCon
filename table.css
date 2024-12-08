@@ -1,0 +1,136 @@
+header {
+    background-image: linear-gradient(to right,  rgb(4, 8, 94), rgba(5, 5, 65, 0.726), transparent);
+    padding: 5px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: white;
+    font-weight: 100%;
+    width: 100%;    
+    font-style: italic;
+    justify-content: space-between;
+}
+body {
+    padding: 0;
+    background-image: url('tabround.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
+    padding: 5px;
+    text-align: center;
+    word-spacing: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    margin-top: 1%;
+    font-size: medium;
+}
+
+#NAVA {
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+    padding: 11px;
+    font-style: bolder;
+}
+
+#NAVA:hover {
+    background-image: linear-gradient(to right, darkblue, blue, rgb(18, 50, 226));
+    padding: 11.3px;
+}
+
+table {
+    width: 55%;
+    border-collapse: collapse;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    border: 2px solid aqua;
+    padding: 15px 15px;
+    text-align: center;
+    color: aquamarine;
+    font-size: larger;
+}
+
+th {
+    background-image: linear-gradient(to right, darkblue, blue, rgb(18, 50, 226));
+    font-weight: bold;
+}
+
+.footlink {
+    background-image: linear-gradient(to left,  rgb(4, 8, 94), rgba(5, 5, 65, 0.726), transparent);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    font-family: 'SoDoSans';
+    letter-spacing: 2px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5%;
+}
+
+.foot-contains {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 50px;
+    width: 100%;
+}
+
+.foot-nav {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.foot-nav h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.foot-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.foot-nav ul li {
+    margin-bottom: 8px;
+}
+
+.nav-link {
+    display: flex;
+    gap: 70px;
+    padding-top: 20px;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-link a:hover {
+    color: aquamarine;
+}

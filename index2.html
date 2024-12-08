@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" href="Final.css">
+    <script src="Final.js"></script>
+</head>
+<body>  
+    <header>
+        <h1>Number System Conversion Calculator</h1>
+    <nav>
+        <a id="NAVA" href="home.html">HOME</a>
+        <a id="NAVA" href="about.html">ABOUT</a>
+        <a id="NAVA" href="table.html">CONVERSION-TABLE</a>
+        <a id="NAVA" href="Numerical.html">NUMERICAL-SYSTEMS</a>
+    </nav>
+</header>
+    <div class="container">
+        <article>
+            <form id="conversion-form">
+                <label>Decimal:</label>
+                <input type="text" id="decimal" maxlength="10" oninput="convertFromDecimal()" placeholder="Enter A Decimal Value">
+                <br><br>
+                <label>Binary:</label>
+                <input type="text" id="binary" maxlength="10" oninput="convertFromBinary()" placeholder="Enter A Binary Value">
+                <br><br>
+                <label>Octal:</label>
+                <input type="text" id="octal" maxlength="10" oninput="convertFromOctal()" placeholder="Enter An Octal Value">
+                <br><br>
+                <label>Hexadecimal:</label>
+                <input type="text" id="hexadecimal" maxlength="10" oninput="convertFromHexadecimal()" placeholder="Enter A Hexadecimal Value">
+                <br><br>
+            </form> 
+        </article>
+    </div>
+
+    <footer> &copy; All Rights Reserved. 2024</footer>
+</body>
+</html>

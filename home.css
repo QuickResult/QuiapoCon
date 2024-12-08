@@ -1,0 +1,205 @@
+#social {
+    width: 40px; 
+    height: 40px;
+    transition: transform 0.3s ease;
+    margin-right: 50%;
+    margin-top: 0;
+}
+
+#social:hover {
+    transform: scale(1.1);
+}
+
+header {
+    background-image: linear-gradient(to right, rgb(0, 110, 255), aquamarine, rgb(0, 217, 255));
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    width: 100%;
+    justify-content: space-between;
+    word-spacing: 30px;
+    text-align: center;
+}
+
+body {
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#NAVA {
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+    padding: 11px;
+    font-style: bolder;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+#NAVA:hover {
+    background-color: rgb(127, 182, 255);
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.left{
+    background-image: linear-gradient(to right, rgba(0, 110, 255, 0.767), rgba(127, 255, 212, 0.836), rgb(0, 217, 255));
+    width: 700px;
+    height: 600px;
+    margin: 0;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 20px;
+    font-size: 15.5px;
+}
+
+.left2 {
+    background-image: linear-gradient(to right, rgba(0, 110, 255, 0.767), rgba(127, 255, 212, 0.836), rgb(0, 217, 255));
+    transform: scaleX(-1) rotate(180deg);
+    width: 700px;
+    height: 600px;
+    margin: 0;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 7%;
+    border-radius: 20px;
+    font-size: 23px;
+}
+
+b{
+    margin-top: 5%;
+}
+
+.intro{
+    text-align: center; 
+    color: black;
+    font-size: 20px;
+    background-image: linear-gradient(to left, rgba(0, 110, 255, 0.767), rgba(127, 255, 212, 0.836), rgb(0, 217, 255));
+    letter-spacing: 2px;
+    position: relative;
+    gap: 20px;
+    min-height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    border-radius: 20px;
+}
+
+.main {
+    flex: 1;
+    background-image: url('right.jpg');
+    position: relative;
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 140px;
+    padding-bottom: 110px;
+    min-height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+.main2 {
+    background-image: url('right.jpg');
+    transform: scaleY(-1);
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 140px;
+    min-height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+img{
+    overflow: clip;
+    margin-top: 25%;
+}
+
+.footlink {
+    background-image: linear-gradient(to right, rgb(0, 110, 255), rgba(35, 39, 235, 0.753), rgb(0, 217, 255));
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    font-family: 'SoDoSans';
+    letter-spacing: 2px;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: auto;
+}
+
+.foot-contains {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 50px;
+    width: 100%;
+}
+
+.foot-nav {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.foot-nav h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.foot-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.foot-nav ul li {
+    margin-bottom: 8px;
+}
+
+.nav-link {
+    display: flex;
+    gap: 70px;
+    padding-top: 20px;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-link a:hover {
+    color: aquamarine;
+}
