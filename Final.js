@@ -69,7 +69,6 @@ function clearAllInputs() {
     document.getElementById('hexadecimal').value = '';
 }
 
-// Conversion functions (manual implementations)
 function decimalToBinary(decimal) {
     let result = '';
     while (decimal > 0) {
